@@ -1,0 +1,116 @@
+
+                     body{margin: 0px 0px;}
+
+                    .flex{display: flex;}
+
+                   .flex1{flex: 1; 
+                   	      background-color: #FAF6F1;}
+
+                   .flex2{flex: 1;
+                          background-color: #FAF6F1;
+                          margin-top: 0px;}
+
+               .flex2 img{margin-top: 0px;}
+                      
+                      .ul{width: 100%; 
+                          margin-left: 30px}
+
+                 .ul span{display: inline-block;
+                 	      padding: 30px 5px 5px 5px;
+                          background-color: #0F77FF;
+                          margin-left: 20px;
+                          font-size: 20px;
+                          border-radius: 0px 0px 5px 5px;
+                          color: white;}
+
+                      .li{display: inline-block;
+                          list-style: none;
+                          margin-right: 40px;}
+
+                     .lii{display: inline-block;
+                          list-style: none;
+                          margin-right: 0px;}
+
+                    #Blue{color: #0F77FF;}
+
+                   .ul ul{display: inline-block;
+                          width: 80%;}
+
+                   .Katta{margin: 300px 0px 0px 50px;}
+
+                .Katta h3{font-size: 50px;}
+
+              .Katta span{color: #0F77FF;}
+
+             .Katta input{margin-right: 0px;
+             	          width: 70%;
+             	          float: left;
+                          padding: 20px 0px;
+                          border: none;
+                          border-radius: 5px 0px 0px 5px;}
+
+            .Katta button{margin-left: 0px;
+                          padding: 20px 30px;
+                          border: none;
+                          background-color: #0F77FF;
+                          border-radius: 0px 5px 5px 0px;
+                          color: white;}              
+ 
+                    .list{display: inline-block;
+                          list-style: none;
+                          padding: 10px 10px;
+                          background-color: white;
+                          border: none;
+                          border-radius: 20px;}
+
+                    #list{margin-left: 0px}     
+
+                   .llist{display: inline-block;
+                          list-style: none;
+                          padding: 10px 15px;
+                          background-color: white;
+                          border: none;
+                          border-radius: 20px;}
+
+                 .Katta ul{float: left;
+                 	       text-align: left; 
+                           width: 100%;}
+
+                   .flex3{width: 100%;}
+
+                .flex3 ul{margin-left: 15px}
+
+                      .il{display: inline-block;
+                          text-align: left;
+                          margin-right: 160px;}
+
+                      #il{margin-right: 0px;}
+
+                    #lili{color: #0F77FF;}
+
+@media (min-width: 489px) and (max-width: 789px){
+  .flex2, .flex3, .flex1, body{background-image: url(Rasmlar/rasm1.png);
+	                      background-attachment: fixed;
+	                      background-size: 100% 100%;}
+
+                    .flex{display: block;}   
+
+	               .flex2{display: inline-block;
+	                      flex: 1;}
+
+	               .flex1{display: block;
+	                      width: 100%;}
+
+	                 .img{display: none;}
+
+                .flex3 ul{float: left;
+                          width: 100%;
+                          margin-top: 350px;}
+
+                      .il{display: inline-block;
+                          margin-right: 40px;}    
+
+	            .Katta h3{font-size: 30px}
+
+	                  .ul{margin-left: 60px}
+                         }

@@ -13,28 +13,25 @@
                .flex2 img{margin-top: 0px;}
                       
                       .ul{width: 100%; 
-                          margin-left: 30px}
+                          margin-left: 10px}
 
-                 .ul span{display: inline-block;
-                 	      padding: 30px 5px 5px 5px;
-                          background-color: #0F77FF;
-                          margin-left: 20px;
-                          font-size: 20px;
+                   .ul ul{display: flex;
+                          width: 100%;}
+
+                    .liil{flex: 1;
+                          margin-top: -1px;
+                          list-style: none;}
+
+               .liil span{padding: 30px 5px 5px 5px; 
                           border-radius: 0px 0px 5px 5px;
-                          color: white;}
+                          color: white;
+                          font-size: 20px;background-color: #0F77FF;}
 
-                      .li{display: inline-block;
-                          list-style: none;
-                          margin-right: 40px;}
+                      .li{flex: 1;
+                          list-style: none;}
 
-                     .lii{display: inline-block;
-                          list-style: none;
-                          margin-right: 0px;}
-
-                    #Blue{color: #0F77FF;}
-
-                   .ul ul{display: inline-block;
-                          width: 80%;}
+                     .lii{flex: 1;
+                          list-style: none;}
 
                    .Katta{margin: 300px 0px 0px 50px;}
 
@@ -43,13 +40,12 @@
               .Katta span{color: #0F77FF;}
 
              .Katta input{margin-right: 0px;
-             	          width: 70%;
-             	          float: left;
+             	            width: 70%;
                           padding: 20px 0px;
                           border: none;
                           border-radius: 5px 0px 0px 5px;}
 
-            .Katta button{margin-left: 0px;
+            .Katta button{margin-left: -4px;
                           padding: 20px 30px;
                           border: none;
                           background-color: #0F77FF;
@@ -78,15 +74,24 @@
 
                    .flex3{width: 100%;}
 
-                .flex3 ul{margin-left: 15px}
+                .flex3 ul{display: flex;
+                          margin-left: 15px;}
 
-                      .il{display: inline-block;
+                      .il{flex: 15;
                           text-align: left;
-                          margin-right: 160px;}
+                          list-style: none;}
 
                       #il{margin-right: 0px;}
 
                     #lili{color: #0F77FF;}
+
+                      .il:hover{color: #0F77FF;}
+
+                      .li:hover{color: #0F77FF;}
+
+                     .lii:hover{color: #0F77FF;}
+
+                    #Blue:hover{color: #0F77FF;}
 
 @media (min-width: 489px) and (max-width: 789px){
   .flex2, .flex3, .flex1, body{background-image: url(Rasmlar/rasm1.png);
@@ -95,22 +100,33 @@
 
                     .flex{display: block;}   
 
-	               .flex2{display: inline-block;
-	                      flex: 1;}
+	                 .flex2{display: inline-block;
+	                        flex: 1;}
 
-	               .flex1{display: block;
-	                      width: 100%;}
+	                 .flex1{display: block;
+	                        width: 100%;}
 
-	                 .img{display: none;}
+	                   .img{display: none;}
 
                 .flex3 ul{float: left;
                           width: 100%;
                           margin-top: 350px;}
 
                       .il{display: inline-block;
-                          margin-right: 40px;}    
+                          margin-right: 40px;
+                          color: blue;}
 
-	            .Katta h3{font-size: 30px}
+                .il:hover{color: blue;}    
 
-	                  .ul{margin-left: 60px}
+	              .Katta h3{font-size: 30px}
+
+	                    .ul{margin-left: 60px}
+
+                .li:hover{color: blue;}
+
+               .lii:hover{color: blue;}
+
+              #Blue:hover{color: blue;}
+
+                    #Blue{color: black;}
                          }
